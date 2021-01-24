@@ -1,0 +1,8 @@
+
+
+Question: Implement an algorithm to determine if a string has all unique characters.
+
+Example:
+The String "Hello" has two "l"s. Therefore, it does not have all unique characters. On the other hand, if you consider the String "World", it is formed using all unique characters.
+
+Implement with and without additional data structure.
