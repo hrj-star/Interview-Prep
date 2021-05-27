@@ -1,0 +1,21 @@
+
+
+Fibonacci Series is based on the fact that every number after thr first two is the sum of 2 of its previous numbers.
+
+Eg : 0 1 1 2 3 5 8 13 21 34....
+
+
+Recurrence Relation for nth fibonacci number is :
+
+F(n) = F(n-1) + F(n-2) , with base values as F(0) = 0 and F(1) = 1.
+
+Input :
+-----------
+N =  8
+
+
+Output :
+-----------
+Nth Fibonaaci number is : 21
+
+

@@ -1,0 +1,6 @@
+
+Find longest subarray with alternating positive and negative elements.
+
+Example : [1, -2, 6, 4, -3, 2, -4, -3]
+
+Output : [4 , -3 , 2 , -4]

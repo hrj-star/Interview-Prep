@@ -1,0 +1,11 @@
+
+
+Given a string, find all possible palindromic partitions of given string.
+
+Eg : nitin 
+
+Output : n i t i n
+         n iti n
+         n i t i n
+
+    

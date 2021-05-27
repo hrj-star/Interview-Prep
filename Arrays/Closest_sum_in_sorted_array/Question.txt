@@ -1,0 +1,13 @@
+
+Link : https://www.tutorialcup.com/interview/array/element-pair-sorted-array-sum-closest-number.htm
+
+Given a sorted array and a number x, find the pair in array whose sum is closest to x.
+
+Example :
+---------------
+
+arr[] : 4 16 28 37 42 56 63 89 124 245
+x : 101
+
+Output : 100 (sum of 63 and 37)
+

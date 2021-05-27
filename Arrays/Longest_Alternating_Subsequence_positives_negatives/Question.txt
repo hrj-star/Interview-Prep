@@ -1,0 +1,16 @@
+
+Given an array arr[] of positive and negative numbers only. The task is to find the length of the longest alternating (means negative-positive-negative or positive-negative-positive) subsequence present in the array.
+
+
+Examples:
+--------------
+
+Input: arr[] = {-4, 3, -5, 9, 10, 12, 2, -1}
+Output: 5
+Explanation:
+The longest sequence is {-4, 3, -5, 9, -1} which of length 5. There can be many more subsequence of this length.
+
+Input: arr[] = {10, 12, 2, -1}
+Output: 2
+Explanation:
+The longest sequence is {10, -1} which is 2. There can be many more subsequence of this length.

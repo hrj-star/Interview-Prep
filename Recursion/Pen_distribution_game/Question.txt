@@ -1,0 +1,48 @@
+
+Given an integer N denoting the number of boxes in a pen, and two players P1 and P2 playing a game of distributing N pens among themselves as per the following rules:
+
+P1 makes the first move by taking 2X pens. (Initially, X = 0)
+P2 takes 3X pens.
+Value of X increases by 1 after each move.
+P1 and P2 makes move alternatively.
+If the current player has to take more pens than the number of pens remaining in the box, then they quit.
+Game will be over when both the players quit or when the box becomes empty.
+
+
+The task to print the following details once the game is over:
+
+	The number of pens remaining in the box.
+	The number of pens collected by P1.
+	The number of pens collected by P2.
+
+
+
+1)
+Input: N = 22
+Output:
+Number of pens remaining in the box: 14
+Number of pens collected by P1 : 5
+Number of pens collected by P2 : 3
+
+Explanation:
+----------------------------
+
+Move 1: X = 0, P1 takes 1 pen from the box. Therefore, N = 22 – 1 = 21.
+Move 2: X = 1, P2 takes 3 pens from the box. Therefore, N = 21 – 3 = 18.
+Move 3: X = 2, P1 takes 4 pens from the box. Therefore, N = 18 – 4 = 14.
+Move 4: X = 3, P2 quits as 27 > 14.
+Move 5: X = 4, P1 quits as 16 > 14.
+Game Over! Both players have quit.
+
+
+2) 
+Input: N = 1
+Output:
+Number of pens remaining in the box : 0
+Number of pens collected by P1 : 1
+Number of pens collected by P2 : 0
+
+
+
+
+Tags : recursion , backtracking , math , game 

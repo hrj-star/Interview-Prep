@@ -1,0 +1,17 @@
+
+Link : https://www.geeksforgeeks.org/check-string-can-obtained-rotating-another-string-2-places/
+
+
+Check if a string can be obtained by rotating another string 2 places.
+
+Example :
+---------------
+
+Input: string1 = “amazon”, string2 = “azonam” 
+Output: Yes 
+// rotated anti-clockwise
+
+
+Input: string1 = “amazon”, string2 = “onamaz” 
+Output: Yes 
+// rotated clockwise

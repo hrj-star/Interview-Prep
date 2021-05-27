@@ -1,0 +1,14 @@
+
+Find duplicate element in an array in single loop
+Given a limited range array  of size  n and containing elements between 1 and n-1 with one repeating elements , find duplicate element in it without any extra space
+
+Example :
+------------
+
+
+Input:  { 1, 2, 3, 4, 4 }
+Output: The duplicate element is 4
+ 
+ 
+Input:  { 1, 2, 3, 4, 2 }
+Output: The duplicate element is 2

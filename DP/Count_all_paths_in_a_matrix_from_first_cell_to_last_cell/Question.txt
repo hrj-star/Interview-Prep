@@ -1,0 +1,8 @@
+
+Given a M*N rectangular matrix , efficiently  count all paths starting from first cell (0,0) to last cell (M-1 , N-1) . We can either move down or towards right from a cell.
+
+
+
+Input : 3*3 matrix (M=3 , N=3)
+
+Output : Total paths are : 6 

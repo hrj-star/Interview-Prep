@@ -1,0 +1,12 @@
+
+Longest Increasing subsequence
+
+
+https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/
+
+
+Longest Decreasing subsequence
+
+Longest Alternating subsequence
+
+

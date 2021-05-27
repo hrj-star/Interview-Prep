@@ -1,0 +1,19 @@
+Given root of a binary tree and a key k in it, find distance of the given key from root. Dis­tance means num­ber of edges between two nodes.
+
+Examples:
+
+Input : k = 45,
+        Root of below tree
+        5
+      /    \
+    10      15
+    / \    /  \
+  20  25  30   35
+       \
+       45
+Output : Distance = 3             
+There are three edges on path
+from root to 45.
+For more understanding of question,
+in above tree distance of 35 is two
+and distance of 10 is 1.

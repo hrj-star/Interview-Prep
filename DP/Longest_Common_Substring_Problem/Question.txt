@@ -1,0 +1,18 @@
+
+
+Longest Common Substring problem is the problem of finding the longest string(or strings) that is a substring (or are substrings) of 2 strings .
+
+Substring - occupy consecutive positions within original string.
+
+
+Example 
+
+------------------
+
+X = ABABC
+
+Y = BABCA
+
+Output
+----------------
+Substrings are : ABC,A,AB,B,BA,BC,C,BABC of which longest substring is BABC of length 4 .

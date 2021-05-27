@@ -75,7 +75,7 @@ Output :
 
 Complexity Analysis :
 ---------------------------
-TC : O(n^2) : Two loops
+TC : O(n) 
 SC : O(1) 
 
 

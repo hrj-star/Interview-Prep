@@ -1,0 +1,7 @@
+Notes 
+---------------
+substring()
+
+String s1="Hello";
+System.out.println(s1.substring(0,2)); // He
+System.out.println(s1.substring(2)); // llo

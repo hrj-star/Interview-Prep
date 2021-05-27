@@ -1,0 +1,13 @@
+
+Given two sorted arrays arr1[] and arr2[] of sizes M and N in non-decreasing order. Merge them in sorted order without using any extra space. Modify arr1 so that it contains the first N elements and modify arr2 so that it contains the last M elements.
+
+
+
+Input:
+arr1[] = { 1, 4, 7, 8, 10 }
+arr2[] = { 2, 3, 9 }
+ 
+Output:
+arr1[] = { 1, 2, 3, 4, 7 }
+arr2[] = { 8, 9, 10 }
+
