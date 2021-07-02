@@ -1,0 +1,28 @@
+Convert anybase source number to its decimal equivalent.
+
+Example :
+------------
+
+
+Input :
+---------------
+Source Num : 123
+Source Base : 8
+
+Output : 83
+
+
+Input :
+---------------
+Source Num : 1010
+Source Base : 2
+
+Output : 10
+
+
+Input :
+---------------
+Source Num : 1423
+Source Base : 5
+
+Output : 238

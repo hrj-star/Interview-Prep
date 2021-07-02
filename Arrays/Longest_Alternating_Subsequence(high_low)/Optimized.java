@@ -35,32 +35,22 @@ class Optimized {
     else if(arr[i] < arr[i-1]){
       dec = inc + 1;
     }
-    
 
   }
 
-  
   return Math.max(inc,dec);
 
   }
   
-
   public static void main(String[] args) {
     int arr1[] = {10, 22, 9, 33, 49,50, 31, 60};
     int arr2[] = {8, 9, 6, 4, 5, 7, 3, 2, 4};
     int arr3[] = {8, -1, 2, 1, 9, 10};
 
 
-   
- 
-   
- 
-
    System.out.println("Longest Alternating Subsequence : " + longest_alternating_subsequence(arr1,arr1.length));
    System.out.println("Longest Alternating Subsequence : " + longest_alternating_subsequence(arr2,arr2.length));
    System.out.println("Longest Alternating Subsequence : " + longest_alternating_subsequence(arr3,arr3.length));
-
-
 
  }
 }

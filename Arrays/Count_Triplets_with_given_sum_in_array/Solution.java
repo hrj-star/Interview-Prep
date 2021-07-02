@@ -21,8 +21,8 @@ class Solution {
     map.put(arr[i],i);
   }
 
-;
- // System.out.print(map); // map: {0=3, 1=6, 2=0, 3=7, 4=2, 5=5, 7=1, 9=4}
+
+  //System.out.print(map); // map: {0=3, 1=6, 2=0, 3=7, 4=2, 5=5, 7=1, 9=4}
 
 
   for(int i=0;i<n-1;i++){

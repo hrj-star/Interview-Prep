@@ -23,7 +23,10 @@ class Optimized {
   for(int i=0;i<len;i++){
 
     sum += arr[i]; // sum so far
-    count += prevSum.getOrDefault(sum-k,0); // if (sum-k) is seen before , there exists subarray with given sum , increase count
+    if(prevSum.containsKey(sum - k)){
+      count += prevSum.get(sum-k);
+    }
+     // if (sum-k) is seen before , there exists subarray with given sum , increase count
     prevSum.put(sum,prevSum.getOrDefault(sum,0)+1); // if already exists then add value by 1 else 0 .
 
   }

@@ -56,7 +56,7 @@ Closest sum is : 100 ==>  pairs: 37 , 63
 
 
 
-TC : O(nlogn) : binary search
+TC : O(nlogn) or O(n)
 SC : O(1) 
 
 

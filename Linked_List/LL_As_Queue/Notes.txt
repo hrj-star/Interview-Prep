@@ -1,0 +1,11 @@
+Methods to implement LL as Queue :
+--------------------------------------
+
+Operation 	Queue               LinkedList           Order
+
+Insertion	enqueue(n)			addLast(n)			 O(1)
+Deletion	dequeue()			removeFirst()		 O(1)
+Get First   front()				getFirst()			 O(1)
+Display		display()			display()			 O(n)
+isEmpty()   isEmpty()           isEmpty()            O(1)
+size()		size()				size()				 O(1)

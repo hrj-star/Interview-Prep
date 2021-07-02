@@ -1,0 +1,11 @@
+Print the k times left rotated and right rotated array of the given array.
+
+
+Example :
+------------
+
+arr[] = {1,3,5,7,9,11}
+k=1
+
+Right Rotated = {11,1,3,5,7,9}
+Left Rotated = {3,5,7,9,11,1}

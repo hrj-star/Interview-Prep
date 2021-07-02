@@ -24,8 +24,14 @@ class Optimized{
             char c = s.charAt(i);
 
             while(set.contains(c)){
+                //System.out.println("set before"+set);
                 set.remove(s.charAt(j)); // if present in set , remove char at j , for reset process
+               
+                //System.out.println("before " + j);
+               // System.out.println("j " + s.charAt(j));
+                //System.out.println("set after"+set);
                 ++j;
+               
             }
 
             set.add(c);
@@ -59,8 +65,24 @@ class Optimized{
 
 Solution : 
 
-true
-false
+3
+1
+3
+0
+7
+
+Working:
+---------------
+s = "abcabcbb"
+
+set = a
+    = ab
+    = abc
+    = bc (as a is repeated , j is pointed to first a and gets removed)
+    = 
+
+
+
 
 Complexity Analysis :
 ------------------

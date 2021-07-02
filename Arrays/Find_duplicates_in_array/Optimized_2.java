@@ -5,6 +5,13 @@ Solution To Use :
  1)  Method 4 : XOR 
  2) Works for twice repeated elements
  
+ XOR Table :
+
+ 0 ^ 0 = 0
+ 0 ^ 1 = 1
+ 1 ^ 0 = 1
+ 1 ^ 1 = 0
+
 */
 
 import java.util.*;

@@ -1,5 +1,5 @@
 
-Given an unsorted , distint array , find triplets with given sum in it.
+Given an unsorted , distinct array , find triplets with given sum in it.
 
 Input:
  

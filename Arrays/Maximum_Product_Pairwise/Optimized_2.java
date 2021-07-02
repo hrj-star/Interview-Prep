@@ -73,14 +73,7 @@ else{
   System.out.println("Product : "+(min1*min2) + " " + " Pair : "+ min1 + " & " + min2);
 }
 
-
-
-  
- 
-
-
-
-  }
+}
   
 
   public static void main(String[] args) {

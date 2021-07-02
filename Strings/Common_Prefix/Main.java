@@ -13,7 +13,7 @@ class Main{
         String prefix = "";
 
         for(int i =0 ;i<min_len;i++){
-        	if(s1.charAt(i) != s2.charAt(i)){
+        	if(s1.charAt(i) != s2.charAt(i)){ 
         		prefix = s1.substring(0,i);
         		break;
         	}

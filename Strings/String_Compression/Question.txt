@@ -1,0 +1,6 @@
+Given an input string of a certain length, design an algorithm that compresses the string. The string should be compressed such that consecutive duplicates of characters are replaced with the character and followed by the number of consecutive duplicates.
+
+For example, if the input string is “wwwwaaadexxxxxx”, then the function should return “w4a3dex6”.
+
+This kind of compression is called Run Length Encoding.
+

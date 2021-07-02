@@ -1,0 +1,25 @@
+Convert decimal base source number to its anybase destination equivalent.
+
+Example :
+------------
+
+
+
+Input :
+---------------
+Source Decimal Num : 238
+Source Base : 5
+
+Output : 1423
+
+
+Input :
+---------------
+Source Decimal Num : 10
+Source Base : 2
+
+Output : 1010
+
+
+
+

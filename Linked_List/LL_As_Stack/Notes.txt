@@ -1,0 +1,11 @@
+Methods to implement LL as Stack :
+--------------------------------------
+
+Operation 	Stack               LinkedList           Order
+
+Insertion	push(n)				addFirst(n)			 O(1)
+Deletion	pop()				removeFirst()		 O(1)
+Get First   top()				getFirst()			 O(1)
+Display		display()			display()			 O(n)
+isEmpty()   isEmpty()           isEmpty()            O(1)
+size()		size()				size()				 O(1)
