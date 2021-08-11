@@ -48,9 +48,9 @@ class Main{
     root.right.left = new Node(6);
     root.right.right = new Node(7);
     root.right.left.left = new Node(8);
-        root.right.right.right = new Node(9);
+    root.right.right.right = new Node(9);
 
-        preOrder(root);
+    preOrder(root);
   }
       
 }

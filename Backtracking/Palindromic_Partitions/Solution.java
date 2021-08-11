@@ -28,7 +28,6 @@ class Solution {
     
     // base check - check for empty string ,return empty
 
-    //System.out.println("hellow");
     int start = 0 , end = str.length()-1;
 
     if(start == end){

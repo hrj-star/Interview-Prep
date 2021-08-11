@@ -1,0 +1,4 @@
+Write a code to sort a stack using recursion. 
+Sort in  descending order (Top of the stack has the greatest element).
+
+We don’t have to use any loop constructs ( for, while etc) or additional data structure.

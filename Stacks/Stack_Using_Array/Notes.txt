@@ -1,0 +1,12 @@
+Methods to implement LL as Stack :
+--------------------------------------
+
+Operation 	Stack               Order
+
+Insertion	push(n)				O(1)
+Deletion	pop()				O(1)
+Get First   top()				O(1)
+Display		display()			O(n)
+isEmpty()   isEmpty()           O(1)
+isFull()    isFull()            O(1)
+size()		size()				O(1)
