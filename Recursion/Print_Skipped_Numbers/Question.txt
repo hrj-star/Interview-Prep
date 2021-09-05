@@ -1,8 +1,12 @@
 Print the following numbers on console using recursion :
 
 5
-4
+
 3
-2
+
 1
+
+2
+
+4
 

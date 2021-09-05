@@ -1,0 +1,9 @@
+Permutation meaning all the arrangements.
+
+Example :
+-----------------------
+
+s = "abc"
+Permutation : ["abc","acb","bac","bca","cab","cba"]
+Place single character in 3 possible positions :  _bc -> abc , b_c -> bac , bc_ -> bca
+Formula = n! = 3! = 6.

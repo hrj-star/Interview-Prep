@@ -1,0 +1,5 @@
+Given 4 boxes , print all possible combinations  to arrange 2  queens in those 4 boxes.
+
+Example : 4 queens are placed in 2 boxes in 6 possible ways using combination - 2! = 2*3*1 = 6 ways
+
+Hint - Use Combination as no need to arrange queens.

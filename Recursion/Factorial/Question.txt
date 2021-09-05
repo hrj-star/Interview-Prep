@@ -1,0 +1,4 @@
+Execute factorial of a number using recursion
+
+Eg : n = 4 , factorial = 24
+Eg : n = 5 , factorial = 120

@@ -1,0 +1,17 @@
+A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
+
+The elements may or mayh not be contiguous but need to be ordered .
+At each step , we either include or exclude the element.
+Eg : subsequences of abcd include {ac , bcd , bd} etc.
+
+They are in order - 2 ^ n , where n is the length of original string.
+
+
+
+Get all subsequences of a String in a ArrayList of String and return the ArrayList ?
+
+Eg : str = "abc"
+
+subsequences : ["", "a", "b", "ab", "c", "ac", "bc", "abc"]
+
+2^n , if n = 3 , subsequences are : 8.

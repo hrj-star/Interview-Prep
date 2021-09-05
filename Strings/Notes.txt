@@ -5,3 +5,23 @@ substring()
 String s1="Hello";
 System.out.println(s1.substring(0,2)); // He
 System.out.println(s1.substring(2)); // llo
+
+
+             substring        subsequence 
+Contiguous    yes              no
+Ordered       yes              yes
+For n input   n*(n+1)/2        2^n
+
+
+Eg : "abc"
+--------------------------
+
+Substring : ["a", "ab", "abc", "b", "bc", "c"]
+
+Subsequence : ["", "a", "b", "ab", "c", "ac", "bc", "abc"]
+
+
+References :
+--------------------------
+
+https://quanticdev.com/algorithms/primitives/subarray-vs-substring-vs-subsequence-vs-subset/

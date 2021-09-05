@@ -1,0 +1,33 @@
+Given final amount and infinite supply of denominations , give the total number of ways to make the amount by arranging in every possible ways.
+
+Hint - Use Permutation as  need to arrange.
+
+Example :
+------------------
+For change = 10 , and denominations { 2 , 3 , 5 , 6} , there are total 17 ways.
+
+22222
+
+
+2233
+2332
+2323
+3223
+3322
+3232
+
+
+226
+262
+622
+
+
+235
+253
+325
+352
+532
+523
+
+
+55

@@ -44,6 +44,10 @@ TC : Expotential or O(2 ^ n)
 SC : O(n) [Extra Space] or O(1)
 
 
+Optimization :
+---------------------------
+
+DP or iterative
 
 
 

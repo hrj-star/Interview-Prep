@@ -1,0 +1,12 @@
+Given final amount and infinite supply of denominations , give the total number of ways to make the amount.
+Hint - Use Combination as no need to arrange , just one instance of each way.
+
+Example :
+------------------
+For change = 10 , and denominations { 2 , 3 , 5 , 6} , there are total 5 ways.
+
+22222
+2233
+226
+235
+55
