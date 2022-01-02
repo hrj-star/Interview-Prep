@@ -1,0 +1,4 @@
+HashTables - saving , retrieving , searching elements inside HashTables.
+Operations in constant time O(1) complexity
+
+HashMap is key-value pair data structure.

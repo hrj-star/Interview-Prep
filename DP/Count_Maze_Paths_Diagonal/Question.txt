@@ -1,0 +1,21 @@
+Count number of ways to reach from (0,0) - top left to last cell with  horizontal , vertical and diagonal moves allowed.
+
+Example :
+--------------------
+Number of ways to move from (0,0) to (2,2) are 13.
+
+They are :
+--------------
+HHVV
+HVHV
+HVVH
+HVD
+HDV
+VHHV
+VHVH
+VHD
+VVHH
+VDH
+DHV
+DVH
+DD

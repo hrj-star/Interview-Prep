@@ -1,0 +1,15 @@
+We have board of length n, and a dice whose faces numbered from 1 to 6.
+initailly we are at starting point of board.
+Count the no of ways to reach destination.
+
+If n=4 , then paths are :
+1111
+112
+121
+13
+211
+22
+31
+4
+
+Total path count : 8

@@ -1,0 +1,10 @@
+In intersection of two arrays problem, we have given two arrays, we need to print their intersection(common elements).
+
+Input
+---------------------
+arr1 = {4, 9, 5}
+arr2 = {9, 4, 9, 8, 4}
+
+Output
+--------------------
+{4, 9}

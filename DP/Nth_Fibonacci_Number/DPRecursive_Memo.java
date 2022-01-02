@@ -8,19 +8,23 @@ Solution To Use :
 
 import java.util.*;
 
-class DP{
+class DPRecursive_Memo{
 
  static int nth_fibonacci(int n){
 
   int[] fibo = new int[n+1]; // 1 extra  for 0 case -- initially array with all 0's
 
 
-  fibo[0] = 0;
-  fibo[1] = 1;
+  if(fibo[n] != 0){
+    return fibo[n];
 
-
-  for(int i = 2 ; i<=n ; i++){
-  	fibo[i] = fibo[i-1] + fibo[i-2];
+  }
+  
+  if(n == 0 || n == 1){
+    fibo[n] = n;
+  }
+  else{
+    fibo[n] = nth_fibonacci(n-1) + nth_fibonacci(n-2);
   }
 
   return fibo[n];

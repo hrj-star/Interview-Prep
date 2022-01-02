@@ -79,3 +79,19 @@ class Main{
 
 	}
 }
+
+/*
+
+[HHVV, HVHV, HVVH, VHHV, VHVH, VVHH]
+Total paths count : 6
+
+Printing MazePaths :
+HHVV
+HVHV
+HVVH
+VHHV
+VHVH
+VVHH
+6
+
+*/

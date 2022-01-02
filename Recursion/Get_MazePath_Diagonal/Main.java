@@ -86,3 +86,26 @@ class Main{
 
 	}
 }
+
+/*
+
+[HHVV, HVHV, HVVH, HVD, HDV, VHHV, VHVH, VHD, VVHH, VDH, DHV, DVH, DD]
+Total paths count : 13
+
+Printing MazePaths Diagonal :
+HHVV
+HVHV
+HVVH
+HVD
+HDV
+VHHV
+VHVH
+VHD
+VVHH
+VDH
+DHV
+DVH
+DD
+13
+
+*/
