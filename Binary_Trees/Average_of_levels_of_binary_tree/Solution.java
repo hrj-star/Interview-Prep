@@ -33,7 +33,7 @@ class Solution {
     			sum+=node.data;
 
     			if(node.left != null){
-    				queue.offer(node.left);
+    				queue.offer(node.left); // offer() - returns true on successful insertion else it returns false
     			}
     			if(node.right != null){
     				queue.offer(node.right);
@@ -64,3 +64,15 @@ class Solution {
         
     }
 }
+
+
+/*
+
+
+Complexity Analysis :
+-----------------------------
+
+TC :  O(n) where n is the number of nodes in the tree.
+SC :  O(h) where h is the height of the tree.
+
+*/

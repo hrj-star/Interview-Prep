@@ -11,15 +11,16 @@ public class Main {
 		String output = "";
 		for(int i=0;i<len;i++){
 			if(i+1 < len && s.charAt(i) == 'p' && s.charAt(i+1) == 'i'){
-				output+="3.14";
+				output += "3.14";
 				i++;
 			}
 			else{
-				output+=s.charAt(i);
+				output += s.charAt(i);
 			}
 		}
 		return output;
 	}
+	
     public static void main(String args[]) {
 
 		Main m = new Main();

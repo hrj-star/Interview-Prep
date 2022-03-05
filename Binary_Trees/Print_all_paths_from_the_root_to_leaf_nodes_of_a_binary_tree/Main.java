@@ -54,7 +54,7 @@ class Main{
     	printRootToLeaf(node.right,path);
         
 
-        // remove the current node after the left, and right subtree are done
+        // remove the current / last node after the left, and right subtree are done
     	path.removeLast();
 
 
@@ -86,6 +86,11 @@ class Main{
 
 
 /*
+
+[1, 2, 4]
+[1, 2, 5]
+[1, 3, 6, 8]
+[1, 3, 7, 9]
 
 TC : O(n) : n - total nodes in binary tree
 

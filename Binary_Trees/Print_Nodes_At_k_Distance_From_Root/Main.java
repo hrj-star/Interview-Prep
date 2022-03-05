@@ -74,6 +74,7 @@ class Main{
 
 Distance from root to given node k is : 3
 
+10 7 9 5
 
 
 TC : O(n) : n - total nodes in binary tree

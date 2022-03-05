@@ -79,7 +79,7 @@ Working :
     3) i=0,j=3 , arr[0] + arr[3] = 1+2 = 3 , freq[3] = 1 , count++ , count = 1
     4) i=1,j=2 , arr[1] + arr[2] = 5+3 = 8 , freq[8] = 0 , dont increment count.
     5) i=1,j=3 , arr[1] + arr[3] = 5+2 = 7 , freq[7] = 0 , dont increment count.
-    2) i=2,j=3 , arr[2] + arr[3] = 2+3 = 5 , freq[5] = 1 , count++ , count = 2
+    6) i=2,j=3 , arr[2] + arr[3] = 2+3 = 5 , freq[5] = 1 , count++ , count = 2
  
 
 

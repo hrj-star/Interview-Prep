@@ -25,10 +25,16 @@ class Main{
     public static boolean hasPathSum(Node node , int sum){
 
         // base case
-        if(node == null){
-          return sum == 0;
+        if(root == null){
+            return false;
+        }
+        
+        // until reaches leaf node and sum is 0 , then we have exhausted targetSum fully
+        if(root.left == null && root.right == null && targetSum - root.val == 0) {
+            return true;
         }
 
+        // recur 
         return hasPathSum(node.left, sum-node.data) || hasPathSum(node.right , sum-node.data);
       
     
