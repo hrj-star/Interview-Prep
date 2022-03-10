@@ -68,6 +68,8 @@ class Solution {
 
 /*
 
+[3.0, 14.5, 11.0]
+
 
 Complexity Analysis :
 -----------------------------

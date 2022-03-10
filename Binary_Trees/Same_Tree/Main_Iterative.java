@@ -30,6 +30,10 @@ class Main_Iterative{
       if(p == null && q == null)
         return true;
 
+    // Return false if one is empty and other is not
+      if (p == null || q == null) 
+        return false;
+
       Stack<Node>  pstack = new Stack<Node>();
       Stack<Node>  qstack = new Stack<Node>();
       
